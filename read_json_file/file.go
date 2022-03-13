@@ -9,6 +9,7 @@ import (
 func main() {
 
 	// read file
+	// https://developer.mozilla.org/ru/docs/Learn/JavaScript/Objects/JSON
 	data, err := ioutil.ReadFile("./file.json")
 	if err != nil {
 		fmt.Print(err)
